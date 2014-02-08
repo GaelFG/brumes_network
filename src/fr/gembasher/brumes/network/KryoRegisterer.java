@@ -11,6 +11,9 @@ public class KryoRegisterer {
 		kryo.register(LoginRequest.class);
 		kryo.register(RegistrationRequired.class);
 		kryo.register(LoggedAs.class);
+		kryo.register(EntityState.class);
+		kryo.register(EntityState[].class);
+		kryo.register(WorldState.class);
 	}
 
 }
